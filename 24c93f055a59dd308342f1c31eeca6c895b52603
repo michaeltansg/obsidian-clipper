@@ -1,0 +1,63 @@
+service/test/convert.test.ts
+  e7f1b19b040b2f12 1-122
+service/build.mjs
+  e7f1b19b040b2f12 1-66
+service/test/extract.test.ts
+  e7f1b19b040b2f12 1-76
+service/test/render.test.ts
+  e7f1b19b040b2f12 1-130
+service/docker-compose.yml
+  e7f1b19b040b2f12 1-11
+service/SERVICE.md
+  e7f1b19b040b2f12 1-144
+service/vitest.config.ts
+  e7f1b19b040b2f12 1-43
+service/test/setup.ts
+  e7f1b19b040b2f12 1-2
+service/src/routes/health.ts
+  e7f1b19b040b2f12 1-7
+service/src/routes/render.ts
+  e7f1b19b040b2f12 1-52
+service/src/routes/convert.ts
+  e7f1b19b040b2f12 1-33
+service/src/index.ts
+  e7f1b19b040b2f12 1-31
+CLAUDE.md
+  e7f1b19b040b2f12 1-100
+service/Dockerfile
+  e7f1b19b040b2f12 1-28
+service/src/dom-globals.ts
+  e7f1b19b040b2f12 1-76
+service/src/shims/debug.ts
+  e7f1b19b040b2f12 1-16
+service/src/shims/browser-polyfill.ts
+  e7f1b19b040b2f12 1-24
+service/tsconfig.json
+  e7f1b19b040b2f12 1-24
+service/src/routes/extract.ts
+  e7f1b19b040b2f12 1-53
+service/package.json
+  e7f1b19b040b2f12 1-18,20-33
+service/.dockerignore
+  e7f1b19b040b2f12 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.8",
+  "base_commit_sha": "24c93f055a59dd308342f1c31eeca6c895b52603",
+  "prompts": {
+    "e7f1b19b040b2f12": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9eb54e10-1d6c-4487-a700-0080f6a4f8e0",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Michael Tan <tan.michael@mac.com>",
+      "messages": [],
+      "total_additions": 1238,
+      "total_deletions": 158,
+      "accepted_lines": 1081,
+      "overriden_lines": 0
+    }
+  }
+}
