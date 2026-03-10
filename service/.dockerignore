@@ -1,0 +1,6 @@
+node_modules
+dist
+*.md
+.git
+dist_firefox
+dist_safari
