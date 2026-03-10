@@ -1,0 +1,11 @@
+services:
+  clipper:
+    build:
+      context: ..
+      dockerfile: service/Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - DEBUG=false
+    restart: unless-stopped
