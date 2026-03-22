@@ -47,10 +47,11 @@ await build({
 	// global setup ordering. Turndown must be bundled because it checks
 	// `typeof window` at load time, and ESM imports hoist above our dom-globals
 	// setup code. Bundling ensures Turndown's init runs after globals are set.
+	// Defuddle must also be bundled because its dist files are UMD/CJS, and
+	// Node.js ESM cannot extract named exports from CJS modules at runtime.
 	external: [
 		'fastify',
 		'jsdom',
-		'defuddle',
 		'dompurify',
 	],
 	// Define DEBUG_MODE as false (used by debug.ts in src/utils)
